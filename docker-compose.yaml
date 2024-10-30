@@ -1,0 +1,10 @@
+services:
+  metrix_manager:
+    build: ./
+    container_name: minecraft_status
+    restart: always
+    environment:
+      INFLUXDB_ADDRES: http://192.168.0.101:8086
+      INFLUXDB_TOKEN: gVnYoNuSMkya3NUWMTjYmB0XE3sWwlotwSQP5TVItr7RxMOVUvws69xlxwiB8diZBbh1cbHFc5XqrCMjWrpLRQ==
+      INFLUXDB_ORG: minecraft_status
+      INFLUXDB_BUCKET: minecraft
