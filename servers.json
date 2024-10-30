@@ -1,6 +1,3 @@
 {
-    "yukku_server":"mod.yukkukomei.com",
-    "null_server":"minecraft00.nullwebservice.uk:39265",
-    "null_keikei_server":"minecraft00.nullwebservice.uk:39268",
-    "arakiakihiko_server":"arakiakihiko.f5.si:59603"
+    "example_server":"example.com"
 }
